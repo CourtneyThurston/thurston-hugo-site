@@ -3,6 +3,18 @@ languageCode = "en-us"
 title = "Courtney Thurston"
 theme = "cocoa"
 
+[[menu.main]]
+name                   = "Home"
+weight                 = -120
+identifier             = "home"
+url                    = "/"
+
+[[menu.main]]
+name                   = "Features"
+weight                 = -110
+identifier             = "features"
+url                    = "/features/"
+
 [params]
 author                 = "Courtney Thurston"
 cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
