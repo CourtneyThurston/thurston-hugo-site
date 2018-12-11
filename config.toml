@@ -2,3 +2,11 @@ baseURL = "http://courtneythurston.com/"
 languageCode = "en-us"
 title = "Courtney Thurston"
 theme = "cocoa"
+
+[params]
+author                 = "Courtney Thurston"
+cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
+email                  = "thurscon@gmail.com"
+faviconfile            = "img/leaf.ico"
+github                 = "//github.com/courtneythurston"
+linkedin               = "//linkedin.com/in/thurscon"
